@@ -3,7 +3,6 @@ package Lab4.Part2;
 import java.util.Arrays;
 
 public class Ex4 {
-
     public static void main(String[] args) {
         int[] arr = {10, 6, 10, 5, 10, 6, 4};
         System.out.println(Arrays.toString(arr));
