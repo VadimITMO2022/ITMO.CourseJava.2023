@@ -10,7 +10,7 @@ public class Ex4 {
 
         int a1 = 0;
         int a2 = 0;
-        int a3;
+        int a3 = 0;
         for (int i = 0; i < arr.length; i++) {
             a1++;
             for (int j = i + 1; j < arr.length; j++) {
