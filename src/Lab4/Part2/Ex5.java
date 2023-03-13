@@ -9,6 +9,7 @@ public class Ex5 {
 // Length of Array and maximal value
         int arrayLength =15, arrayMaxValue=200;
 
+        // make the array of random numbers
         int[] arr = makeArray(arrayLength, arrayMaxValue);
 
         // print the array
