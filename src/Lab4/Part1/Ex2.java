@@ -26,7 +26,7 @@ public class Ex2 {
         }
 
         System.out.println("Делится на 3:"+rat3);
-        System.out.println("Делится на 3:"+rat5);
+        System.out.println("Делится на 5:"+rat5);
         System.out.println("Делится на 3 и 5:"+rat3and5);
     }
 }

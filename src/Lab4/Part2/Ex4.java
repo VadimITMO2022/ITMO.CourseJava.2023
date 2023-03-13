@@ -5,11 +5,16 @@ import java.util.Arrays;
 public class Ex4 {
 
 
-
     public static void main(String[] args) {
         int[] arr = {10, 6, 10, 5, 10, 6, 4};
-        System.out.println(Arrays.toString(arr));
 
+        System.out.println(Arrays.toString(arr));
+        uniqueNumbers(arr);
+
+    }
+
+    //----------------------------------------------------
+    public static void uniqueNumbers(int[] arr) {
         int a1 = 0;
         int a2 = 0;
         int a3;
@@ -23,8 +28,8 @@ public class Ex4 {
             }
         }
         a3 = a1 - a2;
-
         System.out.println(a1+" "+a2);
         System.out.println("Уникальное число в массиве: "+a3);
     }
+
 }

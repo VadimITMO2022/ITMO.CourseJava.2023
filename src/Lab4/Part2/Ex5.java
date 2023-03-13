@@ -6,13 +6,10 @@ public class Ex5 {
     public static void main(String[] args) {
         // Generation of random array
 
-        int arrayLength =15, maxValue=200;
+// Length of Array and maximal value
+        int arrayLength =15, arrayMaxValue=200;
 
-        int[] arr = new int[arrayLength];
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) (Math.random() * maxValue);
-        }
+        int[] arr = makeArray(arrayLength, arrayMaxValue);
 
         // print the array
         System.out.println(Arrays.toString(arr));
@@ -24,7 +21,20 @@ public class Ex5 {
         System.out.println(Arrays.toString(arrSort));
     }
 
-//------------------------------------------------------------------
+
+    //----------------------------------------------------
+    private static int[] makeArray(int arrayLength, int maxValue) {
+        int[] arr = new int[arrayLength];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * maxValue);
+        }
+
+        return arr;
+    }
+
+
+    //------------------------------------------------------------------
 // the Merge Sort method
     private static int[] mergeSort(int[] ints) {
         if (ints.length < 2) {
