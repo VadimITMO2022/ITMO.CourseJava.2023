@@ -19,7 +19,8 @@ public class Ex4 {
         boolean n4;
         n4 =  (n3 > n2) && (n2 > n1);
 
-        System.out.println("Результат: " + n1+"  "+n2+ "  "+n3+"   "+ n4);
+        System.out.println("Результат: " + n1+"  "+n2+ "  "+n3+"  " +
+                "  "+ n4);
     }
 
 }
