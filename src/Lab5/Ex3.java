@@ -7,8 +7,18 @@ public class Ex3 {
         String word = "бяка";
         String replaceWord = "[вырезано цензурой]";
 
+        String str1 = substitute(str, word, replaceWord);
+
         System.out.println(str);
-        String str1=str.replaceAll(word, replaceWord);
         System.out.println(str1);
     }
+
+    //-----------------------------------------------------------------------------------
+    public static String substitute(String str, String word, String replaceWord) {
+
+        String str1 = str.replaceAll(word, replaceWord);
+        return str1;
+    }
+
+
 }
