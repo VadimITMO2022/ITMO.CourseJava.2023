@@ -17,6 +17,7 @@ public class Main {
         String str = "каждая несчастливая семья несчастлива по-своему";
         writeInFile(str, file2);
 
+
        // Ex3
         String file3 = "files/file3.txt";
         mergeTwoFiles(file1, file2, file3);
