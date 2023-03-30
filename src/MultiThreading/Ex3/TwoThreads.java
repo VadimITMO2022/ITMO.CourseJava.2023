@@ -12,7 +12,7 @@ class TwoThreads {
                 while (!run) {
                     wait();
                 }
-                System.out.println("I am thread  "+Thread.currentThread().getName());
+                System.out.println("I am thread  "+Thread.currentThread().getName()+"   run="+run);
                 run = false;
                 notify();
             }
@@ -25,7 +25,7 @@ class TwoThreads {
                 while (run) {
                     wait();
                 }
-                System.out.println("I am thread  "+Thread.currentThread().getName());
+                System.out.println("I am thread  "+Thread.currentThread().getName()+"   run="+run);
                 run = true;
                 notify();
             }
