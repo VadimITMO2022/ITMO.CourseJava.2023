@@ -12,7 +12,7 @@ public class Main {
                 try {
                     obj.firstThread();
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                      throw new RuntimeException(e);
                 }
             }
         });
